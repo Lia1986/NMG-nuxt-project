@@ -1,0 +1,82 @@
+$blueMain: #003566;
+$yellowMain: #ffc300;
+$white: #ffffff;
+$black: #000000;
+$font400: Montserrat-Regular;
+$font500: Montserrat-Medium;
+$font600: Montserrat-SemiBold;
+$font700: Montserrat-Bold;
+$bRadius: 4px;
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(~assets/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(~assets/fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(~assets/fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: Montserrat-Bold.ttf;
+  src: url(~assets/fonts/Montserrat-Regular.ttf);
+}
+body {
+  font-family: $fontApp;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.app_padding {
+  padding-left: 14.584%;
+  padding-right: 14.584%;
+}
+.d-flex_jc-c_ai-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d-flex {
+  display: flex;
+}
+.jc_sb {
+  justify-content: space-between;
+}
+.btn {
+  height: 46px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  background: $yellowMain;
+  color: $white;
+  font-weight: 600;
+  font-size: 22px;
+  box-shadow: 0px 6px 10px rgba(28, 26, 19, 0.1);
+  border-radius: $bRadius;
+  cursor: pointer;
+}
+.btn_empty {
+  box-sizing: border-box;
+  border: 2px solid $yellowMain;
+  background: transparent;
+  color: $yellowMain;
+}
+.mr-40 {
+  margin-right: 40px;
+}
+.mr-12 {
+  margin-right: 12px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mb-12 {
+  margin-bottom: 12px;
+}

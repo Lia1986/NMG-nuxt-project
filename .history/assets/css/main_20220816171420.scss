@@ -1,0 +1,46 @@
+$blueMain: #003566;
+$yellowMain: #ffc300;
+$white: #ffffff;
+$fontApp: Montserrat;
+$bRadius:4px;
+
+@font-face {
+  font-family: Montserrat;
+  src: url(~assets/fonts/Montserrat.ttf);
+}
+body{
+    font-family: $fontApp;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.d-flex_jc-c_ai-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jc_sb{
+   justify-content: space-between; 
+}
+.btn {
+  height: 46px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  background: $yellowMain;
+  color: $white;
+  font-weight: 600;
+  font-size: 22px;
+  box-shadow: 0px 6px 10px rgba(28, 26, 19, 0.1);
+  border-radius: 4px;
+}
+.btn_empty {
+  box-sizing: border-box;
+  border: 2px solid $yellowMain;
+  background: transparent;
+  color: $yellowMain;
+}
